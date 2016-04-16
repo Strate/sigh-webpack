@@ -24,9 +24,14 @@
   "dependencies": {
     "bluebird": "^3.3.5",
     "lodash": "^4.10.0",
-    "sigh-core": "^0.11.8"
+    "sigh-core": "^0.11.8",
+    "memory-fs": "0.3.0"
+  },
+  "peerDependencies": {
+    "webpack": "<2"
   },
   "devDependencies": {
+    "webpack": "<2",
     "babel": ">=5 <6",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
